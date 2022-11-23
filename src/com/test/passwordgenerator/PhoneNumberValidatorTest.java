@@ -38,12 +38,6 @@ class PhoneNumberValidatorTest {
 	@ValueSource(strings = {"+111 (202) 555 0125" , "63685 67 89" , "+91 786 555 0125"})
 	void checkSpaces(String input) {
 		assertTrue(phoneNumberValidator.validatePhoneNumber(input));
-
-	//	assertTrue(phoneNumberValidator.validatePhoneNumber());
-
-//		
-
-	//	assertTrue(phoneNumberValidator.validatePhoneNumber());
 	}
 	
 	@Test

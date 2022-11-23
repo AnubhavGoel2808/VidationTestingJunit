@@ -40,7 +40,7 @@ public class Main {
                     printMenu();
                 }
                 case "2" -> {
-                    Password password = new Password(null);
+                    Password password = new Password();
                     String s = password.checkPassword(null);
                     System.out.println("Result : " + s);
                     printMenu();
